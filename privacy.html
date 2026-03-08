@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MXRC App 隱私權政策 | Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        h1 {
+            color: #1a73e8;
+            border-bottom: 2px solid #e8f0fe;
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #202124;
+            margin-top: 30px;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+        }
+        h2::before {
+            content: "•";
+            color: #1a73e8;
+            font-weight: bold;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        p, li {
+            font-size: 16px;
+            color: #5f6368;
+        }
+        .highlight {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 5px solid #1a73e8;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 14px;
+            color: #9aa0a6;
+        }
+        .en-section {
+            font-style: italic;
+            color: #888;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>MXRC App 隱私權政策</h1>
+    <p><strong>最近更新日期：2026年3月9日</strong></p>
+
+    <div class="highlight">
+        本應用程式由「國立臺北商業大學 數位多媒體設計系 羅治民教授」開發。我們致力於提供安全的 AI 機器人教育環境，本 App 不收集任何使用者個人識別資訊。
+    </div>
+
+    <h2>1. 核心原則：資料本地化處理</h2>
+    <p>本 App 遵循「最小化資料收集」原則：</p>
+    <ul>
+        <li><strong>AI 影像推論：</strong> 所有的物件辨識（TFLite）均在您的裝置端即時處理。影像數據「絕不」上傳至伺服器。</li>
+        <li><strong>通訊數據：</strong> 透過 WebSocket 與機器人的通訊僅限於局域網路內部。</li>
+    </ul>
+
+    <h2>2. 權限請求說明 (App Permissions)</h2>
+    <p>為了確保機器人控制功能的運作，本 App 會申請以下權限：</p>
+    <ul>
+        <li><strong>相機 (Camera)：</strong> 用於 AI 視覺開發、影像分類與 FPV 遠端操控。</li>
+        <li><strong>位置/Wi-Fi (Location/Connectivity)：</strong> 根據 Android 系統規範，連接 Wi-Fi 機器人設備需存取此權限，我們不會記錄您的經緯度資訊。</li>
+        <li><strong>檔案存取 (File Access)：</strong> 用於儲存與讀取您的積木程式碼與 AI 模型檔案。</li>
+    </ul>
+
+    <h2>3. 兒童隱私保護 (Children's Privacy)</h2>
+    <p>作為一款教育學習工具，我們嚴格遵守以下規範：</p>
+    <ul>
+        <li>無廣告內容 (No Ads)。</li>
+        <li>無任何應用程式內購買 (No In-app Purchases)。</li>
+        <li>不收集學生的行為數據或生物特徵。</li>
+    </ul>
+
+    <h2>4. 資料安全性 (Security)</h2>
+    <p>我們採取標準加密措施保護通訊。請注意，在使用 AI 輔助功能（如 Gemini API）時，您輸入的文字指令將受 Google 隱私權條款保護，建議不要在對話中輸入敏感個人資訊。</p>
+
+    <h2>5. 聯絡方式 (Contact Us)</h2>
+    <p>若對本政策有任何疑問，請聯繫開發團隊：</p>
+    <p>
+        <strong>國立臺北商業大學 數位多媒體設計系 羅治民教授</strong><br>
+        電子郵件：cmlotw@ntub.edu.tw
+    </p>
+</div>
+
+<footer>
+    &copy; 2026 NTUB Digital Multimedia Design. All rights reserved.
+</footer>
+
+</body>
+</html>
